@@ -89,66 +89,64 @@ export const skills: SkillGroup[] = [
 
 export const projects: Project[] = [
 {
-title: "Recipe Sharing Platform",
-category: "Full Stack Application",
-description:
-"A community-driven recipe sharing platform where users can discover, create, and share recipes with step-by-step instructions, ingredients, and cooking tips. Features user authentication, recipe management, and an intuitive browsing experience.",
-image: "/projects/recipe-sharing.png",
-tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "Vercel"],
-github: "https://github.com/ForamRavaliya/Recipe-Sharing-Website.git",
-demo: "https://recipe-sharing-website-zeta.vercel.app/",
-highlights: [
-"Create, edit, and share recipes",
-"User authentication and profile management",
-"Search and category-based recipe discovery"
-]
-},
-
-{
-title: "Dear Diary",
-category: "Full Stack Application",
-description:
-"A secure personal diary platform where users can create, edit, organize, and manage private journal entries with authentication and protected access.",
-image: "/projects/dear-diary.png",
-tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT"],
-github: "https://github.com/ForamRavaliya/DearDiary.git",
-demo: "https://dear-diary-green.vercel.app/",
-highlights: [
-"JWT authentication and authorization",
-"Create, edit, and delete diary entries",
-"Responsive and secure user interface"
-]
-},
-
-{
-title: "Drawing Website for Kids",
-category: "Interactive Learning",
-description:
-"A creative drawing and coloring platform designed for children with interactive tools, coloring pages, responsive design, and an engaging user experience.",
-image: "/projects/drawing-kids.png",
-tech: ["React", "JavaScript", "Canvas API", "CSS"],
-github: "https://github.com/ForamRavaliya/DrawingWebsite.git",
-demo: "https://drawing-website-six.vercel.app/",
-highlights: [
-"Interactive drawing canvas",
-"Coloring pages for children",
-"Mobile-friendly responsive design"
-]
+  title: "Recipe Sharing Platform",
+  category: "Web App",
+  description:
+    "A community-driven recipe sharing platform where users can discover, create, and share recipes with step-by-step instructions, ingredients, and cooking tips. Features user authentication, recipe management, and an intuitive browsing experience.",
+  image: "/projects/recipe-sharing.png",
+  tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "Vercel"],
+  github: "https://github.com/ForamRavaliya/Recipe-Sharing-Website",
+  demo: "https://recipe-sharing-website-zeta.vercel.app/",
+  highlights: [
+    "Create, edit, and share recipes",
+    "User authentication and profile management",
+    "Search and category-based recipe discovery"
+  ]
 },
 {
-title: "Bookmark Manager",
-category: "Productivity Tool",
-description:
-"A bookmark management application that helps users organize, search, categorize, and manage web resources efficiently using collections and tags.",
-image: "/projects/bookmark-manager.png",
-tech: ["Next.js", "Supabase", "PostgreSQL", "Vercel"],
-github: "https://github.com/ForamRavaliya/bookmarks.git",
-demo: "https://bookmarks-beryl.vercel.app/",
-highlights: [
-"Bookmark collections and tagging",
-"Fast search and filtering",
-"Cloud-based data persistence"
-]
+  title: "Dear Diary",
+  category: "Web App",
+  description:
+    "A secure personal diary platform where users can create, edit, organize, and manage private journal entries with authentication and protected access.",
+  image: "/projects/dear-diary.png",
+  tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT"],
+  github: "https://github.com/ForamRavaliya/DearDiary",
+  demo: "https://dear-diary-green.vercel.app/",
+  highlights: [
+    "JWT authentication and authorization",
+    "Create, edit, and delete diary entries",
+    "Responsive and secure user interface"
+  ]
+},
+{
+  title: "Drawing Website for Kids",
+  category: "Creative",
+  description:
+    "A creative drawing and coloring platform designed for children with interactive tools, coloring pages, responsive design, and an engaging user experience.",
+  image: "/projects/drawing-kids.png",
+  tech: ["React", "JavaScript", "Canvas API", "CSS"],
+  github: "https://github.com/ForamRavaliya/DrawingWebsite",
+  demo: "https://drawing-website-six.vercel.app/",
+  highlights: [
+    "Interactive drawing canvas",
+    "Coloring pages for children",
+    "Mobile-friendly responsive design"
+  ]
+},
+{
+  title: "Bookmark Manager",
+  category: "Productivity",
+  description:
+    "A bookmark management application that helps users organize, search, categorize, and manage web resources efficiently using collections and tags.",
+  image: "/projects/bookmark-manager.png",
+  tech: ["Next.js", "Supabase", "PostgreSQL", "Vercel"],
+  github: "https://github.com/ForamRavaliya/bookmarks",
+  demo: "https://bookmarks-beryl.vercel.app/",
+  highlights: [
+    "Bookmark collections and tagging",
+    "Fast search and filtering",
+    "Cloud-based data persistence"
+  ]
 }
 ];
 
@@ -158,7 +156,6 @@ export const education: TimelineItem[] = [
     title: "Bachelor's Degree / Computer Science Path",
     organization: "LD college of Engineering",
     period: "2022 - 2026",
-    cgpa: "7.68",
     details: [
       "Focused on web development, database systems, software engineering, and practical project building.",
       "Built full-stack projects with React, Next.js, PostgreSQL, and deployment workflows."
