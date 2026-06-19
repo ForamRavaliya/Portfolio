@@ -7,30 +7,30 @@ import {
 import type { Project, SkillGroup, SocialLink, TimelineItem } from "@/types/portfolio";
 
 export const profile = {
-  name: "Your Name",
-  roles: ["Full Stack Developer", "Frontend Developer", "Database Enthusiast"],
+  name: "Foram Ravaliya",
+  roles: ["Full Stack Developer", "Frontend Developer", "Database Enthusiast, Database Administrator"],
   tagline:
     "I build polished, fast, and human-friendly web experiences with React, Next.js, TypeScript, and clean database-backed systems.",
-  location: "India",
-  email: "youremail@example.com",
+  location: "Ahmedabad, India",
+  email: "fravaliya2107@gmail.com",
   resumeUrl: "/resume.pdf",
-  avatarInitials: "YN"
+  avatarInitials: "FR"
 };
 
 export const socialLinks: SocialLink[] = [
   {
     label: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/ForamRavaliya",
     icon: Github as LucideIcon
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/ForamRavaliya",
     icon: Linkedin as LucideIcon
   },
   {
     label: "Email",
-    href: "mailto:youremail@example.com",
+    href: "mailto:fravaliya2107@gmail.com",
     icon: Mail as LucideIcon
   }
 ];
@@ -80,7 +80,7 @@ export const skills: SkillGroup[] = [
     skills: [
       { name: "Git", level: 85 },
       { name: "GitHub", level: 88 },
-      { name: "VS Code", level: 92 },
+      { name: "Intelij IDEA", level: 92 },
       { name: "Vercel", level: 84 },
       { name: "Render", level: 76 }
     ]
@@ -88,88 +88,77 @@ export const skills: SkillGroup[] = [
 ];
 
 export const projects: Project[] = [
-  {
-    title: "Dear Diary",
-    category: "Web App",
-    description:
-      "A private journaling app with mood tracking, rich entries, search, and a calm writing-first interface.",
-    image: "/projects/dear-diary.svg",
-    tech: ["Next.js", "React", "Supabase", "PostgreSQL"],
-    github: "https://github.com/yourusername/dear-diary",
-    demo: "https://dear-diary-demo.vercel.app",
-    highlights: [
-      "Authentication-ready database design",
-      "Mood-based entry filtering",
-      "Responsive editor layout"
-    ]
-  },
-  {
-    title: "Marketing Report Generator",
-    category: "AI Tool",
-    description:
-      "A dashboard that transforms campaign metrics into clean summaries, charts, and executive-ready reports.",
-    image: "/projects/marketing-report.svg",
-    tech: ["React", "Node.js", "Express.js", "Charts"],
-    github: "https://github.com/yourusername/marketing-report-generator",
-    demo: "https://marketing-report-demo.vercel.app",
-    highlights: [
-      "Reusable report templates",
-      "Data-driven insight blocks",
-      "Export-friendly layouts"
-    ]
-  },
-  {
-    title: "Drawing Website for Kids",
-    category: "Creative",
-    description:
-      "A playful browser drawing studio with bright tools, touch-friendly controls, and simple save actions.",
-    image: "/projects/drawing-kids.svg",
-    tech: ["HTML", "CSS", "JavaScript", "Canvas"],
-    github: "https://github.com/yourusername/drawing-website-kids",
-    demo: "https://drawing-kids-demo.vercel.app",
-    highlights: [
-      "Canvas-based drawing tools",
-      "Kid-friendly interaction patterns",
-      "Mobile and tablet optimized"
-    ]
-  },
-  {
-    title: "Interview Prep Platform",
-    category: "Web App",
-    description:
-      "A structured preparation platform with question banks, progress tracking, and focused practice flows.",
-    image: "/projects/interview-prep.svg",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind"],
-    github: "https://github.com/yourusername/interview-prep-platform",
-    demo: "https://interview-prep-demo.vercel.app",
-    highlights: [
-      "Topic-wise practice paths",
-      "Progress and streak design",
-      "Clean question review experience"
-    ]
-  },
-  {
-    title: "Bookmark Manager",
-    category: "Productivity",
-    description:
-      "A fast bookmark organizer with tags, search, collections, and a minimal command-driven workflow.",
-    image: "/projects/bookmark-manager.svg",
-    tech: ["React", "Supabase", "SQL", "Vercel"],
-    github: "https://github.com/yourusername/bookmark-manager",
-    demo: "https://bookmark-manager-demo.vercel.app",
-    highlights: [
-      "Tag and collection system",
-      "Instant search UX",
-      "Supabase-backed persistence"
-    ]
-  }
+{
+title: "Recipe Sharing Platform",
+category: "Full Stack Application",
+description:
+"A community-driven recipe sharing platform where users can discover, create, and share recipes with step-by-step instructions, ingredients, and cooking tips. Features user authentication, recipe management, and an intuitive browsing experience.",
+image: "/projects/recipe-sharing.png",
+tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "Vercel"],
+github: "https://github.com/ForamRavaliya/Recipe-Sharing-Website.git",
+demo: "https://recipe-sharing-website-zeta.vercel.app/",
+highlights: [
+"Create, edit, and share recipes",
+"User authentication and profile management",
+"Search and category-based recipe discovery"
+]
+},
+
+{
+title: "Dear Diary",
+category: "Full Stack Application",
+description:
+"A secure personal diary platform where users can create, edit, organize, and manage private journal entries with authentication and protected access.",
+image: "/projects/dear-diary.png",
+tech: ["React", "Node.js", "Express.js", "PostgreSQL", "JWT"],
+github: "https://github.com/ForamRavaliya/DearDiary.git",
+demo: "https://dear-diary-green.vercel.app/",
+highlights: [
+"JWT authentication and authorization",
+"Create, edit, and delete diary entries",
+"Responsive and secure user interface"
+]
+},
+
+{
+title: "Drawing Website for Kids",
+category: "Interactive Learning",
+description:
+"A creative drawing and coloring platform designed for children with interactive tools, coloring pages, responsive design, and an engaging user experience.",
+image: "/projects/drawing-kids.png",
+tech: ["React", "JavaScript", "Canvas API", "CSS"],
+github: "https://github.com/ForamRavaliya/DrawingWebsite.git",
+demo: "https://drawing-website-six.vercel.app/",
+highlights: [
+"Interactive drawing canvas",
+"Coloring pages for children",
+"Mobile-friendly responsive design"
+]
+},
+{
+title: "Bookmark Manager",
+category: "Productivity Tool",
+description:
+"A bookmark management application that helps users organize, search, categorize, and manage web resources efficiently using collections and tags.",
+image: "/projects/bookmark-manager.png",
+tech: ["Next.js", "Supabase", "PostgreSQL", "Vercel"],
+github: "https://github.com/ForamRavaliya/bookmarks.git",
+demo: "https://bookmarks-beryl.vercel.app/",
+highlights: [
+"Bookmark collections and tagging",
+"Fast search and filtering",
+"Cloud-based data persistence"
+]
+}
 ];
+
 
 export const education: TimelineItem[] = [
   {
     title: "Bachelor's Degree / Computer Science Path",
-    organization: "Your College or University",
+    organization: "LD college of Engineering",
     period: "2022 - 2026",
+    cgpa: "7.68",
     details: [
       "Focused on web development, database systems, software engineering, and practical project building.",
       "Built full-stack projects with React, Next.js, PostgreSQL, and deployment workflows."
@@ -178,16 +167,18 @@ export const education: TimelineItem[] = [
 ];
 
 export const internships: TimelineItem[] = [
-  {
-    title: "Frontend Developer Intern",
-    organization: "Company Name",
-    period: "Jun 2025 - Aug 2025",
-    details: [
-      "Developed responsive React components and collaborated on UI improvements for production pages.",
-      "Improved reusable styling patterns with Tailwind CSS and shipped accessible interactive states.",
-      "Worked with Git, GitHub pull requests, and deployment previews."
-    ]
-  }
+ {
+ title: "Web Developer Intern",
+ organization: "Augmetic Infinite LLP",
+ period: "Feb 2026 - May 2026",
+ details: [
+ "Developed and maintained full-stack web applications using React, Node.js, Express.js, and PostgreSQL.",
+ "Built features for a Marketing Report Generator platform including dashboard analytics, PDF report generation, and client management.",
+ "Integrated REST APIs, managed database operations, and collaborated on bug fixing and performance improvements.",
+ "Worked with Git, GitHub, Vercel, Render, and modern development workflows for deployment and version control."
+ ]
+ }
+
 ];
 
 export const resumeHighlights = [
