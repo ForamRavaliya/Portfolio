@@ -17,7 +17,7 @@ export default function About() {
       <SectionHeading
         eyebrow="About me"
         title="Developer mindset with a designer's eye."
-        description="I enjoy turning ideas into polished, useful products: the kind that load fast, feel smooth, and make the next action obvious."
+        description="Final-year Information Technology student at LD College of Engineering with experience building full-stack web applications using React, Next.js, Node.js, Express.js, PostgreSQL, and Supabase."
       />
 
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">

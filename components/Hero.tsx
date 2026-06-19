@@ -55,7 +55,7 @@ export default function Hero() {
           <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[1.02] sm:text-6xl lg:text-7xl">
             Hi, I&apos;m <span className="gradient-text">{profile.name}</span>.
             <span className="mt-3 block text-white/92">
-              I craft digital products that feel alive.
+              Full Stack Developer building scalable web applications with React, Node.js, and PostgreSQL.
             </span>
           </h1>
 

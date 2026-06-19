@@ -8,7 +8,7 @@ import type { Project, SkillGroup, SocialLink, TimelineItem } from "@/types/port
 
 export const profile = {
   name: "Foram Ravaliya",
-  roles: ["Full Stack Developer", "Frontend Developer", "Database Enthusiast, Database Administrator"],
+  roles: ["Full Stack Developer", "Web Developer", "Database Enthusiast, Database Administrator"],
   tagline:
     "I build polished, fast, and human-friendly web experiences with React, Next.js, TypeScript, and clean database-backed systems.",
   location: "Ahmedabad, India",
