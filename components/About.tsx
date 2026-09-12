@@ -12,7 +12,7 @@ import {
 import SectionHeading from "@/components/SectionHeading";
 import { education, profile } from "@/data/portfolio";
 
-cconst summaryCards = [
+const summaryCards = [
    {
      label: "Development",
      value: "React + Next.js",
