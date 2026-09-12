@@ -49,13 +49,13 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.07] px-4 py-2 text-sm text-white/72 backdrop-blur-xl">
             <span className="h-2 w-2 rounded-full bg-cyan shadow-[0_0_18px_#57E6E6]" />
-            Available for internships, projects, and collaborations
+            Available for Software Testing / QA internships and entry-level opportunities
           </div>
 
           <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[1.02] sm:text-6xl lg:text-7xl">
             Hi, I&apos;m <span className="gradient-text">{profile.name}</span>.
             <span className="mt-3 block text-white/92">
-              Full Stack Developer building scalable web applications with React, Node.js, and PostgreSQL.
+              Full Stack Developer & Aspiring Software Tester focused on building reliable and quality-driven web applications.
             </span>
           </h1>
 
@@ -128,19 +128,22 @@ export default function Hero() {
                 <p className="font-mono text-sm text-cyan">portfolio.preview.tsx</p>
                 <div className="mt-8 space-y-4 font-mono text-sm text-white/78">
                   <p>
-                    <span className="text-coral">const</span> developer ={" "}
+                    <span className="text-coral">const</span> tester ={" "}
                     <span className="text-gold">&quot;{profile.name}&quot;</span>;
                   </p>
+
                   <p>
-                    <span className="text-coral">skills</span>.map(buildBeautifulUI);
+                    <span className="text-coral">test</span>.features();
                   </p>
+
                   <p>
-                    deploy(<span className="text-cyan">&quot;vercel&quot;</span>);
+                    validate(
+                    <span className="text-cyan">&quot;quality&quot;</span>);
                   </p>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-3">
-                {["React", "Next", "SQL"].map((item) => (
+                {["Manual Testing", "Postman", "SQL"].map((item) => (
                   <div key={item} className="rounded-2xl border border-white/10 bg-white/8 p-4 text-center font-display text-sm">
                     {item}
                   </div>

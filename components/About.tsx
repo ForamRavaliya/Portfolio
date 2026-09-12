@@ -1,24 +1,43 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Database, GraduationCap, Sparkles } from "lucide-react";
+import {
+  Bug,
+  Code2,
+  Database,
+  GraduationCap,
+  ShieldCheck,
+  Sparkles
+} from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { education, profile } from "@/data/portfolio";
 
-const summaryCards = [
-  { label: "Frontend craft", value: "React UI", icon: Code2 },
-  { label: "Database thinking", value: "SQL + Supabase", icon: Database },
-  { label: "Creative polish", value: "Motion + UX", icon: Sparkles }
-];
+cconst summaryCards = [
+   {
+     label: "Development",
+     value: "React + Next.js",
+     icon: Code2
+   },
+   {
+     label: "Software Testing",
+     value: "Manual Testing",
+     icon: ShieldCheck
+   },
+   {
+     label: "Database",
+     value: "SQL + PostgreSQL",
+     icon: Database
+   }
+ ];
 
 export default function About() {
   return (
     <section id="about" className="section-shell">
-      <SectionHeading
-        eyebrow="About me"
-        title="Developer mindset with a designer's eye."
-        description="Final-year Information Technology student at LD College of Engineering with experience building full-stack web applications using React, Next.js, Node.js, Express.js, PostgreSQL, and Supabase."
-      />
+     <SectionHeading
+       eyebrow="About me"
+       title="Developer mindset with a quality-first approach."
+      description="Final-year Information Technology student at LD College of Engineering and an aspiring Software Tester with foundational knowledge of manual testing, test case design, functional testing, API testing, SQL validation, regression testing, and bug reporting."
+     />
 
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <motion.div
@@ -49,10 +68,12 @@ export default function About() {
         >
           <div className="glass-card rounded-[2rem] p-7">
             <p className="text-lg leading-8 text-white/74">
-              I&apos;m a modern web developer focused on building elegant interfaces,
-              practical full-stack features, and clean database-backed workflows. I like
-              combining strong fundamentals with expressive animations, polished spacing,
-              and production-ready structure.
+              I&apos;m a full-stack developer with a strong interest in software testing
+              and quality assurance. I have foundational knowledge of manual testing,
+              test case writing, functional testing, regression testing, API testing,
+              SQL validation, and bug reporting. My development background also helps
+              me understand application workflows, APIs, databases, and common software
+              issues from both a developer and tester perspective.
             </p>
           </div>
 

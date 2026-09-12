@@ -9,11 +9,11 @@ export default function Skills() {
     <section id="skills" className="section-shell">
       <SectionHeading
         eyebrow="Skills"
-        title="A focused toolkit for shipping polished web apps."
-        description="Organized by the areas I use most: interface development, backend logic, database work, and deployment tooling."
+        title="A growing toolkit across development and software testing."
+        description="My technical foundation combines full-stack web development with foundational knowledge of software testing, including manual testing, test cases, functional testing, API testing, regression testing, and SQL validation."
       />
 
-      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
         {skills.map((group, groupIndex) => (
           <motion.article
             key={group.category}

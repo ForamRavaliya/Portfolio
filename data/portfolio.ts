@@ -8,12 +8,17 @@ import type { Project, SkillGroup, SocialLink, TimelineItem } from "@/types/port
 
 export const profile = {
   name: "Foram Ravaliya",
-  roles: ["Full Stack Developer", "Web Developer", "Database Enthusiast, Database Administrator"],
+  roles: [
+    "Aspiring Software Tester",
+    "QA Enthusiast",
+    "Full Stack Developer",
+    "Web Developer"
+  ],
   tagline:
-    "I build polished, fast, and human-friendly web experiences with React, Next.js, TypeScript, and clean database-backed systems.",
+    "Full Stack Developer with foundational knowledge of software testing, focused on building reliable applications and learning quality assurance practices.",
   location: "Ahmedabad, India",
   email: "fravaliya2107@gmail.com",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/resumeQA.pdf",
   avatarInitials: "FR"
 };
 
@@ -74,6 +79,18 @@ export const skills: SkillGroup[] = [
       { name: "Supabase", level: 80 }
     ]
   },
+{
+  category: "QA & Testing",
+  accent: "from-cyan to-violet",
+  skills: [
+    { name: "Manual Testing", level: 65 },
+    { name: "Test Case Writing", level: 60 },
+    { name: "Functional Testing", level: 60 },
+    { name: "Regression Testing", level: 55 },
+    { name: "API Testing", level: 55 },
+    { name: "SQL Testing", level: 65 }
+  ]
+},
   {
     category: "Tools",
     accent: "from-violet to-coral",
@@ -180,7 +197,7 @@ export const internships: TimelineItem[] = [
 
 export const resumeHighlights = [
   "Full-stack project experience with React, Next.js, Node.js, Express.js, PostgreSQL, and Supabase.",
-  "Strong UI focus: responsive layouts, smooth animations, accessible forms, and clean component systems.",
-  "Comfortable deploying modern applications on Vercel and Render with GitHub-based workflows.",
-  "Portfolio projects span productivity apps, AI-assisted reporting, creative canvas tools, and learning platforms."
+  "Foundational knowledge of software testing including manual testing, test case writing, functional testing, regression testing, API testing, and SQL validation.",
+  "Development background that helps me understand application workflows, APIs, databases, and technical defects.",
+  "Comfortable working with Git, GitHub, REST APIs, PostgreSQL, and modern web development workflows."
 ];
